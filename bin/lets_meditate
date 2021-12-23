@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'lets_meditate'
+puts LetsMeditate.start()
