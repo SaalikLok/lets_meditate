@@ -21,3 +21,8 @@ lets_meditate
 ```
 
 This will clear your terminal and start the meditation.
+
+## Features
+
+- Customize how many minutes you'd like to meditate for
+- Countdown timer with a bell to end your session

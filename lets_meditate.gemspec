@@ -2,7 +2,7 @@ require "rake"
 
 Gem::Specification.new do |s|
   s.name = "lets_meditate"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.executables << "lets_meditate"
   s.summary = "Meditation in your terminal."
   s.description = "Let's meditate is a gem that allows you to meditate in the comfort of your terminal."
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec", "~> 3.10.0"
   s.add_runtime_dependency "colorize", "~> 0.8.1"
 
-  s.files = Dir["{lib}/**/*.rb", "{lib}/**/*.wav", "bin/*", "LICENSE", "*.md"]
+  s.files = Dir["{lib}/**/*.rb", "*.wav", "bin/*", "LICENSE", "*.md"]
   s.require_path = "lib"
 end
