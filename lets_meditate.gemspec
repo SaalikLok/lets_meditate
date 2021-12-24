@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "Let's meditate is a gem that allows you to meditate in the comfort of your terminal."
   s.authors = ["Saalik Lokhandwala"]
   s.email = "saalikl111@gmail.com"
-  s.files = ["lib/*", "bin/*"]
+  s.files = Dir["lib/*"] + Dir["bin/*"]
   s.homepage =
     "https://rubygems.org/gems/lets_meditate"
   s.license = "MIT"
