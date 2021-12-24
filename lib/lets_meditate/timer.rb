@@ -6,19 +6,18 @@ class Timer
   end
 
   def countdown
-    puts "Take a deep breath, inhale and exhale."
-    puts "Close your eyes."
-    puts
-    sleep 5
-    puts "Meditation in progress...".colorize(:light_green)
-    sleep @seconds
-    puts "Welcome back."
-    play_sound
+   pre_meditation
+   puts "Meditation in progress...".colorize(:light_green)
+   sleep @seconds
+   puts "Welcome back."
   end
 
   private
 
-  def play_sound
-    puts `afplay 'lib/audio/end_session.wav'`
+  def pre_meditation
+    puts "Take a deep breath, inhale and exhale."
+    puts "Close your eyes."
+    puts
+    sleep 5
   end
 end

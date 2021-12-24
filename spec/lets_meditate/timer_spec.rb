@@ -10,8 +10,8 @@ describe Timer do
         start_time = Time.now
         timer.countdown
 
-        # testing with 30 seconds here because of an intentional 5 second pause and the bell needs to complete ringing for the method to complete.
-        expect(Time.now).to be_within(30).of(start_time)
+        # testing with 20 seconds here because of an intentional 5 second pause before the meditation starts
+        expect(Time.now).to be_within(20).of(start_time)
       end
     end
   end
