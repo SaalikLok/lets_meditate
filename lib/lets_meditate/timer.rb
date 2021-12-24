@@ -6,7 +6,6 @@ class Timer
   end
 
   def countdown
-    time = Time.now
     puts "Take a deep breath, inhale and exhale."
     puts "Close your eyes."
     puts
